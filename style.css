@@ -12,7 +12,7 @@ header{
 header>.start{
     display: flex;
     align-items: center;
-    
+    margin-right: 10%;
 }
 .q1{
     width: 24px;
@@ -43,9 +43,6 @@ header>.center{
     display: flex;
     align-items: center;
 }
-.se{
-    margin-left: 40px;
-}
 .con{
     background-color: white;
     border-radius: 40px 0 0 40px;
@@ -61,7 +58,7 @@ header>.center{
 }
 
 .search input {
-    width: 50%;
+    width: 70%;
     height: 42px;
     border: 1px solid rgb(211, 211, 211);
     font-size: 16px;
@@ -73,33 +70,41 @@ header>.center{
     color: rgb(167, 167, 167);
 }
 .search_icon {
+    border-top-right-radius :20px;
+    border-bottom-right-radius :20px;
     border: 1px solid rgb(211, 211, 211);
     border-left: none;
     height: 42px;
     width: 65px;
     background-color: #f8f8f8;
 }
+.search_icon svg{
+    width: 55%;
+    height: 55%;
+}
 .navigation__button {
     margin-left: 10px;
-    width: 6%;
-    height: 6%;
+    width: 45px;
     border: none;
     padding: 17px 10px;
     background-color: transparent;
     cursor: pointer;
     line-height: 5px;
 }
-.search img{
-    position: relative;
-    right: 50px;
-}
 .navigation_icon {
     width: 24px;
     height: 24px;
 }
 
-
-header>.end{
-
+.end>img{
+    border-radius: 50px;
+    margin-right: 40px;
 }
-
+.end_one{
+    margin-right: 40px;
+    width: 25px;
+}
+.end{
+    display: flex;
+    justify-content: center; 
+}
