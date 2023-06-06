@@ -108,3 +108,53 @@ header>.center{
     display: flex;
     justify-content: center; 
 }
+/* ---------------------------- 헤더 */
+.sidebar {
+    width: 240px;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    padding: 12px 0;
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.sidebar_se{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sidebar_link {
+    display: flex;
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 24px;
+    height: 40px;
+}
+.selected {
+    background-color: rgba(108, 108, 108, 0.1);
+    border-radius: 15px;
+    font-weight: 500;
+}
+.sidebar_link svg{
+    height: 24px;
+    width: 24px;
+    margin-right: 24px;
+}
+.hh{
+    padding: 0px 24px;
+    color: rgb(0, 0, 0);
+}
+.sidebar_under{
+    padding: 20px 30px;
+}
+.under_one{
+    font-size: 13px;
+    color: 606060;
+    margin-bottom: 25px;
+}
+.under_two{
+    font-size: 10px;
+    color: #ccc;
+}
