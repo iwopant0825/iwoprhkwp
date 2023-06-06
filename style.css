@@ -3,6 +3,11 @@
     padding: 0;
 }
 header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 30px;
     padding: 16px;
     display: flex; 
@@ -158,3 +163,98 @@ header>.center{
     font-size: 10px;
     color: #ccc;
 }
+/* -----------------------------------------사이드 */
+.videodiv{
+    margin-top: 100px;
+    margin-left: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video_q{
+    margin: 40px 15px;
+    width: 300px;
+}
+.video_q>a {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.iimg2{
+    width: 55px;
+}
+.iimg>img{
+    width: 310px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.iimg2>img{
+    width: 35px;
+    border-radius: 50px;
+}
+.info {
+    display: flex;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+}
+.info__avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 12px 12px 0 0;
+}
+.info h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    
+    color: rgb(3, 3, 3);
+}
+.info a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+
+
+
+
+
+
+
+
+.srve{
+    margin-left: 50px;
+    display: flex;
+    position: fixed;
+    top: 56px;
+    right: 0;
+    left: 240px;
+    background-color: white;
+}
+.srve_w{
+    background-color: black;
+    color: white;
+    white-space : pre;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: 12px 12px 12px 0;
+    cursor: pointer;
+}
+.srve_q{
+    white-space : pre;
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: 12px 12px 12px 0;
+    cursor: pointer;
+}
+
+/* ------------아 집가고싶다 */
+
